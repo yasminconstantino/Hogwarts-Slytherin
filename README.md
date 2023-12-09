@@ -3,10 +3,9 @@
   <p>This is an website made for Slytherin students (that's also my house) and sort of a guide to the new ones.</p>
   <p>I made this one for a HTML and CSS college project.</p>
 
-![image](#)
-
+<img src="images/sly.gif" width="500"/>
   
-  <p>You can check the page, and see it working <a href="#">here</a></p>
+  <p>You can check the page, and see it working <a href="https://yasminconstantino.github.io/Hogwarts-Slytherin/">here</a></p>
 
   <h4> Languages and Technologies:</h4>
   <div>
@@ -22,7 +21,7 @@
     <p>Esse é um site feito para alunos da Sonserina (que também a minha comunal) e uma especia de guia para os novos estudantes.</p>
     <br>
     <p>Eu fiz esse site para um trabalho de HTML e CSS da faculdade</p>
-    <p>Você pode acessar a página e ver ela funcionando <a href="https://yasminconstantino.github.io/WebStore-Site/">aqui</a></p>
+    <p>Você pode acessar a página e ver ela funcionando <a href="https://yasminconstantino.github.io/Hogwarts-Slytherin/">aqui</a></p>
     <h4>Linguagens e tecnologias utilizadas:</h4>
     <div>
         <img src="icons/html (1).png" width="38"/>
