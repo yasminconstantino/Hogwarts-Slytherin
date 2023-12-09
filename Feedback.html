@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yasmin Constantino">
+    <meta name="date" content="2023-11-16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" type="imagex/png" href="images/sonserina.png">
+    <title>Feedback</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/sonserina.png" alt="Logo do Site">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li id="wand"><img src="images/wand.png" alt=""></li>
+                <li><a href="index.html">Início</a></li>
+                <li class="ativo"><a href="Feedback.html">Feedback</a></li>
+                <li><a href="nossas_aulas.html">Nossas aulas</a></li>
+                <li><a href="Materiais.html">Materiais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="conteudo">
+        <div></div>
+        <h1>Feedback - Formulário de Opinião</h1>
+        <img id="snitch" src="images/icons_snitch.png" alt="">
+        <p>Nós gostariamos de saber sua opoinião!</p>
+        <form  id="formu" action="processar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="opiniao">Opinião:</label>
+            <textarea id="opiniao" rows="5" name="opiniao" required></textarea>
+
+            <label>Ocupação:</label>
+            <div>
+                <input type="radio" id="Aluno" name="ocupation" value="Aluno" required>
+                <label for="Aluno">Aluno</label>
+                <input type="radio" id="Visitante" name="ocupation" value="Visitante" required>
+                <label for="Visitante">Visitante</label>
+            </div>
+
+            <label for="interesse">Casa comunal:</label>
+            <select id="interesse" name="interesse" required>
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Sonserina">Sonserina</option>
+                <option value="Corvinal">Corvinal</option>
+                <option value="Grifinoria">Grifinória</option>
+                <option value="LufaLufa">Lufa Lufa</option>
+            </select>
+
+            <div>
+                <label for="termos">Aceitar os termos:</label>
+                <input type="checkbox" id="termos" name="termos" required>
+            </div>
+            
+            <button>Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="contato">
+            <p>Contato:</p>
+            <p>Endereço: Rua XYZ, Cidade ABC</p>
+            <p>Telefone: (123) 456-7890</p>
+            <p>E-mail: contato@meusite.com</p>
+        </div>
+    </footer>
+</body>
+</html>

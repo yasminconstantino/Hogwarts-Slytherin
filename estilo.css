@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+
+/*reset*/
+
+
+/* Estilo do body*/
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: black;
+    margin: 0;
+    color: white;
+    height: 120vh;
+}
+body h1{
+    color: #1d7452;
+    font-family: 'Crimson Text', serif;
+    border-bottom: 1px solid #1d7452;
+    padding-bottom: 1%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+
+/* estilo do header*/
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 1.25em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #1d7452;
+}
+
+/* estilo conteudo, main*/
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    width: 60%;
+    padding: 5% 10%;
+    font-size: 1.25em;
+}
+
+main img{
+    width: 50%;
+}
+/* wand anim*/
+@keyframes rotateWand {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(45deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(45deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  #wand
+{
+    display: flex;
+    justify-content: right;
+}
+  
+  ul img {
+    width: 50%;
+    animation: rotateWand 4s linear infinite; /* Adjust the duration as needed */
+  }
+
+  /* estilo aside*/ 
+
+aside img {
+    width: 70%
+}
+
+aside {
+    width: 40%;
+    padding: 2%;
+    color: white;
+}
+
+.ativo a{
+    color: #1d7452;    
+}
+
+/* estilo footer*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0.625em 0;
+    text-align: center;
+    margin-bottom: 0;
+    border-top: #1d7452 1px solid;
+}
+.contato {
+    text-align: center;
+}
+/* estilo info*/ 
+
+.info{
+    padding: 5%;
+    color: white;
+    border-top: 1px solid #1d7452;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.info p{
+    color: white;
+    width: 31.25em;
+    margin: 3.125em;
+    text-align: justify;
+}
+
+iframe {
+    border: none;
+}
+
+.card img {
+    max-width: 18.75em;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.item img{
+    max-width: 5em;
+    margin: 1.25em;
+}
+
+
+/* etsilo tabela*/ 
+
+table{
+    width:70%;
+    border-collapse: collapse;
+    padding: 0.3125em;
+  }
+			
+table, th, td, caption{
+    padding:0.3125em;
+    border: #1d7452 2px solid;
+	}
+
+th {
+  background-color: #181818;
+  color: #c0c0c0;
+}
+
+tfoot{
+  background-color: #333;
+}
+
+.different {
+    background-color: #101010;
+    color: #c0c0c0;
+}
+
+.hr{
+    color: #333;
+}
+
+.tabela {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.625em;
+}
+
+/* estilo formulario*/
+.conteudo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.625em;
+    color: #666;
+}
+#formu {
+    border: 5px solid #1d7452;
+    border-radius: 15px;
+    color: #c0c0c0;
+    padding: 0.9375em;
+    width: 23.75em;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    line-height: 1.875em;
+    margin: 5%;
+  }
+  textarea {
+    border-radius: 0.9375em;
+    background-color: #181818;
+    border: #1d7452 1px solid;
+    color: #c0c0c0;
+  }
+  input, select{
+    background-color: #181818;
+    border: #101010;
+    color: #c0c0c0;
+    border-radius: 0.9375em;
+  }
+  hr{
+    border-color: #1d7452;
+  }
+  button {
+    background-color: #1d7452;
+    border-radius: 0.9375em;
+    border: #333 2px solid;
+    padding: 5px;
+  }
+
+  /* etsilo lista*/
+
+  ol {
+    width: 20%;
+    line-height: 2.1875em;
+  }
+  /* estilo itens pares */
+ol li:nth-child(even) {
+    background-color: #101010; 
+    color: #333;
+}
+
+/* estilo itens ímpares */
+ol li:nth-child(odd) {
+    background-color: #181818;
+    color: #666;
+}
+
+.uniformes {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.uniformes img {
+    height: 34.375em;
+
+}
+
+.uni {
+    margin: 1.25em;
+}
+
+.uni p {
+    text-align: justify;
+    color: #c0c0c0;
+}
+
+.uni h2 {
+    color: #1d7452;
+}
+.uni h3 {
+    color: #333;
+}
+
+.livro {
+    text-align: center;
+}
+
+.livro p{
+    text-align: justify;
+    color: #c0c0c0;
+}
+
+.livro img {
+    max-width: 18.75em;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#snitch {
+    margin: 1%;
+    width: 5em;
+    height: 5em;
+    background-color: #000;
+    animation: swing 1s infinite;
+}
