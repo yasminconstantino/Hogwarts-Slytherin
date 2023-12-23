@@ -18,6 +18,7 @@
 <section>
   <details>
     <summary>Clique aqui para ler em português</summary>
+    <br>
     <p>Esse é um site feito para alunos da Sonserina (que também a minha comunal) e uma especia de guia para os novos estudantes.</p>
     <br>
     <p>Eu fiz esse site para um trabalho de HTML e CSS da faculdade</p>
